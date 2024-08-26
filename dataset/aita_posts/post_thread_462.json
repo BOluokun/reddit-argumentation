@@ -1,0 +1,356 @@
+{
+  "post content": "I started a small business with 3 other software engineers 10 years ago and now we\u2019ve grown into a 50+ employee company. Our old accountant quit because she was unhappy about not getting the raise she wanted and on her way out leaked everyone\u2019s salaries through an email. We have about 30 SWEs and the rest are QAs and employees who handle the business/sales sides of things. All our devs are payed like 2x-4x times everyone else\u2019s salaries which I think is pretty par for the course. Our lowest paid employee still makes 50k which is above average for their role in our area - we\u2019re Midwestern based. \n\nThe leaked email has created a tense and awkward atmosphere at the workplace. Some employees have expressed concerns over the wage discrepancies during our one-on-ones. I\u2019ve maintained that nothing is going to change since the email leak and I am looking into legal action against our ex employee who leaked it but am wondering if I\u2019m the a\u2019hole here. Like I said I pay above average for everyone\u2019s roles based on our CoL and we are a tech based company, so our SWEs are our money makers.",
+  "id": 1,
+  "comments": [
+    {
+      "score": 543,
+      "content": "I would advise doing a market analysis of salaries in your area so that you can compare what you pay versus what the standard is, both locally and nationally. Also explain to your non-SWE staff why their salaries are much higher. If you value your staff, this is a great way to make sure you don\u2019t have a mass exodus",
+      "id": 2,
+      "comments": [
+        {
+          "score": 54,
+          "content": "I have to second this. OP needs to pull market analysis of wages in her area for several positions. Send a copy wide email with the analysis and a link to the web pages, use at least 2 site preferably 3 or more, so other employees can compare their individual wages. Then explain roughly how you calculated wages for the company. Make sure you send this on a Monday or Tuesday, don't wait until Friday. Then set aside several hours everyday the following for employees to schedule one-on-one time to discuss. I think OP will find once employees understand why developers make more (market demands) than an administrative role people will calm down.\n\nGenerally intelligent people understand that certain skill sets are more in demand and make more money than others. But having it bluntly shoved in their faces hurts.",
+          "id": 3,
+          "comments": [
+            {
+              "score": 24,
+              "content": "Exactly. I\u2019m a payroll manager and my firm does this all the time to retain talent or leveling. It\u2019s a pretty transparent process",
+              "id": 4,
+              "comments": [],
+              "relation": "Support"
+            }
+          ],
+          "relation": "Support"
+        }
+      ],
+      "relation": "Support"
+    },
+    {
+      "score": 438,
+      "content": "You should be able to explain why you think your various employees' roles are less valuable than your devs. You have reasons for assigning each role the salary or wage you've assigned, just as you had reasons to not raise your former accountant's salary when she attempted to negotiate it with you.\n\nYour employees are not just expressing concern about the compensation for their particular role, they're considering how you value the work they do. So figure out how to explain it to them. I have zero sympathy for you here. You relied on secrecy to avoid having to explain your decisions to the people your decisions affect. You're not upset that the compensation packages were leaked, you're upset that you have to explain your choices to your employees. If everyone had just read the email, shrugged, and moved on, you would have been annoyed for a bit and then moved on yourself because no one would be asking you to justify your decisions. Now they are asking and you don\u2019t like it.\n\nNAH. You offer a job within a certain salary range for whatever your reasons are, which is not assholery. Your employees want to know why you value their role the way you do so they can potentially negotiate their compensation package, which is also not assholery.\n\nSuck it up and explain yourself.",
+      "id": 5,
+      "comments": [
+        {
+          "score": 45,
+          "content": "Most companies don't publish salaries though, and admin and sales have their own comp structures that have little to do with the tech talent's rates. Sounds like HR idiot has done more than  show salaries. I'm sure shes stirred things up by badmouthing him. It also sounds like he pays competitively, and has some employees who are immature in their careers and don't known how this works. I had a 1 year paralegal threaten to file a wage action because the attorney she worked with had a higher pay rate than she did.\n\nDude you need a good HR person when knows what they're walking into and who can do a solid local salary survey. The employees need some attention. If they continue to beef about differing pay rates for different skill sets you can encourage them to become devs., offer to pay for classes maybe? Flex schedules so they can attend school P.T.? But let them know you are taking this opportunity to upgrade and professionalize HR with a goal of having salary surveys complete by Q2? If you pay even a shade over market this will shut them up and make your better employees reflect on it. \n\nTake this disaster as an opportunity to improve employee relations. Everyone is looking for a leader and your employees are watching you very carefully right now.",
+          "id": 6,
+          "comments": [],
+          "relation": "Support"
+        },
+        {
+          "score": -59,
+          "content": "While I partially agree with you, it is hugely frowned upon in almost all companies to discuss your paycheck with other employees. I have worked at multiple companies that do not want you to share your salary. However, as the person assigning everyone's salaries, you can explain why you are paying them what they are earning. When I was first switched from hourly to salary, I was told what the starting rate would be and what I would have to do to increase that rate. I have since received 2 raises that I earned by meeting those objectives. If your employees don't feel like they can work towards earning a higher raise, then they will quit trying to improve and things will never get better. Employees like to feel valued for what they are doing.",
+          "id": 7,
+          "comments": [
+            {
+              "score": 90,
+              "content": "That's so they can exploit you. If you don't know what other people are being paid, you can't ask for better. Literally only the company benefits from that. \n\nWhich is why, at least in my state, it is illegal to attempt to punish or suppress employees for discussing salaries between themselves.",
+              "id": 8,
+              "comments": [
+                {
+                  "score": 33,
+                  "content": "Yes, you nailed it. It's illegal throughout the US for good reason, and shitty workplace norms around secrecy shouldn't be acceptable.",
+                  "id": 9,
+                  "comments": [],
+                  "relation": "Support"
+                }
+              ],
+              "relation": "Support"
+            },
+            {
+              "score": 19,
+              "content": "Nah, it's an illegal and crappy way for employers to squeeze every bit out of their workers.\n\nwhich is why it's hilarious that OP thinks he has any grounds to sue the departing employee",
+              "id": 10,
+              "comments": [],
+              "relation": "Attack"
+            }
+          ],
+          "relation": "Support"
+        }
+      ],
+      "relation": "No"
+    },
+    {
+      "score": 164,
+      "content": "There\u2019s nothing illegal about employees discussing their salaries.",
+      "id": 11,
+      "comments": [
+        {
+          "score": 199,
+          "content": "But it may be illegal to disclose all of the other employees salary without their consent. She had access to confidential info and broke that confidentiality",
+          "id": 12,
+          "comments": [
+            {
+              "score": -46,
+              "content": "She might be civilly liable, if she violated something specific in her contract by sharing that information, but I don\u2019t think leaking salary levels, unless you\u2019re also leaking confidential bank info, is considered illegal.  I suppose it probably depends on the state.",
+              "id": 13,
+              "comments": [
+                {
+                  "score": 30,
+                  "content": "On some places (I don't know about the US) with more modern approaches to data protection, wages can be sensitive private information so leaks by third parties may be criminal offenses.",
+                  "id": 14,
+                  "comments": [
+                    {
+                      "score": 0,
+                      "content": "In the US, an employer can make it a requirement for employees to not share their salaries with non-employees.\n\nSo if the accountant quit before sending that email, OP can absolutely sue her.",
+                      "id": 15,
+                      "comments": [],
+                      "relation": "Support"
+                    }
+                  ],
+                  "relation": "Support"
+                },
+                {
+                  "score": 12,
+                  "content": "There are criminal laws against 'unauthorized access of computer systems' she could be hit by if the business owner had sufficient sway or there were an especially vindictive DA.",
+                  "id": 16,
+                  "comments": [],
+                  "relation": "Attack"
+                }
+              ],
+              "relation": "Support"
+            }
+          ],
+          "relation": "Attack"
+        },
+        {
+          "score": 101,
+          "content": "> There\u2019s nothing illegal about employees discussing their salaries\n\n**amongst themselves**. But this was an accountant who leaked privileged payroll info, which is something you actually **aren't** allowed to do.\n\nThe common adage is \"if the employer tells you not to discuss your salary, that's illegal\" and that's true, but this is, like, the single specific case where it cuts the other way. OP may be able take legal action here.",
+          "id": 17,
+          "comments": [
+            {
+              "score": -5,
+              "content": "Yeah you\u2019re right.  As I\u2019ve said in other replies, I hadn\u2019t taken into consideration contractual obligations associated with that position that the employee probably violated.",
+              "id": 18,
+              "comments": [],
+              "relation": "Support"
+            }
+          ],
+          "relation": "Support"
+        },
+        {
+          "score": 34,
+          "content": "Yes but usually people who have access to payroll information are not to discuss salaries.",
+          "id": 19,
+          "comments": [
+            {
+              "score": -12,
+              "content": "True, there might have been something specific in her contract that she violated by leaking that info, in which case she would be liable.  I was thinking in more general terms.  It also varies from state to state",
+              "id": 20,
+              "comments": [],
+              "relation": "Support"
+            }
+          ],
+          "relation": "Attack"
+        },
+        {
+          "score": 24,
+          "content": "I think the legal action was against thevex employee  who leaked  the salary info  to all the employees",
+          "id": 21,
+          "comments": [],
+          "relation": "No"
+        },
+        {
+          "score": 7,
+          "content": "Huge difference between two consenting employees discussing their salaries between each other vs a disgruntled employee with access to that information (thereby would have some form of contractual obligation to non-disclosure) leaking private information of others to others.",
+          "id": 22,
+          "comments": [],
+          "relation": "Support"
+        },
+        {
+          "score": 6,
+          "content": "Yea no if I didnt want Jim down the floor to know what my salary is cos I am sure I make a bit more than him and some AH releases all our salary info, I would regard that to be a breach of my privacy. My salary is between my employer and me, and maybe people I choose to share it with.",
+          "id": 23,
+          "comments": [],
+          "relation": "Support"
+        },
+        {
+          "score": 2,
+          "content": "This is a stupid reply because this is not what is happening.",
+          "id": 24,
+          "comments": [],
+          "relation": "Attack"
+        },
+        {
+          "score": 2,
+          "content": "I can tell you and you can tell me but the HR manager can't tell me what you make.  There are confidentiality agreements you make to be in that position.",
+          "id": 25,
+          "comments": [
+            {
+              "score": 1,
+              "content": "Yeah I hadn\u2019t considered additional constraints that might be contracted on that employee based on her position in the company.  That changes the equation for sure.",
+              "id": 26,
+              "comments": [],
+              "relation": "Support"
+            }
+          ],
+          "relation": "Support"
+        },
+        {
+          "score": 1,
+          "content": "There are often clauses about discussing/disclosing salaries.",
+          "id": 27,
+          "comments": [],
+          "relation": "Attack"
+        }
+      ],
+      "relation": "No"
+    },
+    {
+      "score": 97,
+      "content": "INFO: what are the primary concerns about the wage discrepancies? Are all your SWE men? Are your male devs paid more than your female devs? Or is it strictly concerns about the roles having different pay bases?\n\nBecause if it is strictly a role issue, then NAH, because different careers have different salaries, and you have to offer what is competitive. But as an underpaid female dev who has been consistently underpaid next to my male colleagues-- That shit happens.",
+      "id": 28,
+      "comments": [
+        {
+          "score": 35,
+          "content": "That's why many states have newish laws about not asking current salary when interviewing candidates. Women come in lower and stay lower when their offers are based on already being underpaid. One lowball job and you're off track.",
+          "id": 29,
+          "comments": [],
+          "relation": "Support"
+        }
+      ],
+      "relation": "No"
+    },
+    {
+      "score": 94,
+      "content": "NTA. Different skills bring different pay, and all employees can make more if they bring more or learn other skills.\n\nAs for your old accountant, I'd bring legal action not to actually get something from her, but to send a message that this shit won't be tolerated, and so that when your ex-employee gets Googled, everyone knows that she cannot be trusted with confidential information.",
+      "id": 30,
+      "comments": [],
+      "relation": "Support"
+    },
+    {
+      "score": 61,
+      "content": "Soft YTA. You're not handling this well. Saying during one-on-ones essentially that you're not even going to try to address their concerns is going to damage morale. This isn't about the money, it's about people feeling that you don't value what they are telling you.\n\nPeople don't quite bad jobs or even bad wages, they quit bad managers. If people feel belittled, unappreciated or don't feel they are taken seriously they go elsewhere.\n\nThat's the issue you need to address. It's not about what you're paying them, it's about you dismissing their concerns out of hand.",
+      "id": 31,
+      "comments": [],
+      "relation": "Attack"
+    },
+    {
+      "score": 52,
+      "content": "NTA for paying your developers more than other employees; you need to pay what the market requires to retain employees.\n\nThat's not to say you're not handling this badly, though. Your employees are obviously free to find higher-paying jobs, but you can research local businesses to find out whether your employees actually are paid better than what they can earn elsewhere, locally.\n\nThe fact that your accountant *quit* when you denied her raise makes me doubt that you're paying your non-developers as well as you claim you are.",
+      "id": 32,
+      "comments": [
+        {
+          "score": 4,
+          "content": "I don\u2019t know, if they had just quit because they weren\u2019t getting the raise I might have respected them a bit more. But to do some thing like this is childish.\n\nOP says \"the raise they wanted\" which could easily mean what they asked for wasn\u2019t feasible. Something that\u2019s not mentioned was if they countered with a different offer for a raise, but the accountant said no and only wanted what they asked for. \n\nIn many ways I feel like there\u2019s a lot of information that we don\u2019t have. I agree that they're not handling it correctly, but it doesn\u2019t sound like they\u2019re paying badly. I\u2019d love to earn 50 K a year.",
+          "id": 33,
+          "comments": [],
+          "relation": "Support"
+        }
+      ],
+      "relation": "Support"
+    },
+    {
+      "score": 34,
+      "content": "Info - are the devs that are only getting paid 2x as much upset about the devs that are getting paid 4x or is it across job descriptions? \n\nIf I find out that my coworker in the same role is getting paid twice my salary, I\u2019m looking for another job.",
+      "id": 34,
+      "comments": [],
+      "relation": "No"
+    },
+    {
+      "score": 24,
+      "content": "They should organize.\n\nI'll probably get downvoted to hell for this, but devs making 4x what other employees are making is driving systemic inequities everywhere.",
+      "id": 35,
+      "comments": [
+        {
+          "score": 62,
+          "content": "People who are more difficult to replace makes more money\n\nMore news at 11",
+          "id": 36,
+          "comments": [
+            {
+              "score": 33,
+              "content": "Restaurant workers and nurses say hi (well, before they quit).",
+              "id": 37,
+              "comments": [
+                {
+                  "score": 16,
+                  "content": "Do you honestly believe a restaurant worker is as hard to replace as a skilled developer? \n\nI\u2019m not belittling restaurant work. It\u2019s hard mentally and physically and emotionally. But the skills needed to do it successfully are much more common than the ones needed to be a developer.",
+                  "id": 38,
+                  "comments": [
+                    {
+                      "score": 1,
+                      "content": "Considering all.yhe shortages of hospitality workers in almost every city. Seems like that's Yea",
+                      "id": 39,
+                      "comments": [],
+                      "relation": "Support"
+                    }
+                  ],
+                  "relation": "Attack"
+                },
+                {
+                  "score": 6,
+                  "content": "RN's & BSN's generally make a good salary but are especially now are overworked. Now if you are counting LPNs and MAs in that they are getting paid at their level of education. Imo nurses are a bad example for the underpaid crew. Overworked and undepreciated but generally get a good salry.",
+                  "id": 40,
+                  "comments": [
+                    {
+                      "score": 17,
+                      "content": "Teachers, on the other hand...",
+                      "id": 41,
+                      "comments": [],
+                      "relation": "No"
+                    },
+                    {
+                      "score": 0,
+                      "content": "$60K is not a \"great\" salary if CS majors with no career experience are starting at six figures in the same region.\n\nFor NPs and PAs the payoff is even worse based on the debt load required.",
+                      "id": 42,
+                      "comments": [],
+                      "relation": "Attack"
+                    }
+                  ],
+                  "relation": "Support"
+                }
+              ],
+              "relation": "No"
+            },
+            {
+              "score": 7,
+              "content": "OP will have a difficult time replacing them if they all walk.",
+              "id": 43,
+              "comments": [
+                {
+                  "score": 19,
+                  "content": "...and replacing an entire team of DEVs isn't more difficult?",
+                  "id": 44,
+                  "comments": [
+                    {
+                      "score": 19,
+                      "content": "Are the Devs the ones upset? \n\nOP isn't handling this, he isn't discussing anything with them. He's just saying 'Nope!'.\n\nI hope they do all walk out on him or unionize. It would teach him a lesson in communication and negotiation.",
+                      "id": 45,
+                      "comments": [],
+                      "relation": "Attack"
+                    },
+                    {
+                      "score": 4,
+                      "content": "If the developers quit because you gave raises to other employees then they are AH.",
+                      "id": 46,
+                      "comments": [],
+                      "relation": "Support"
+                    }
+                  ],
+                  "relation": "Attack"
+                },
+                {
+                  "score": 6,
+                  "content": "If he\u2019s paying them all above market average, do you really think they\u2019ll all leave to take pay cuts to go somewhere else where they\u2019ll still be paid less than the devs?",
+                  "id": 47,
+                  "comments": [],
+                  "relation": "Support"
+                }
+              ],
+              "relation": "Support"
+            }
+          ],
+          "relation": "Attack"
+        }
+      ],
+      "relation": "Attack"
+    },
+    {
+      "score": 20,
+      "content": "NAH. You're not the AH for not paying everyone the same amount, but you're veering towards AHish behaviour for the below\n\n> Some employees have expressed concerns over the wage discrepancies during our one-on-ones. I\u2019ve maintained that nothing is going to change since the email leak and I am looking into legal action against our ex employee who leaked it but am wondering if I\u2019m the a\u2019hole here.\n\nYou can't sweep this under the carpet and act like nothing happened. Something has changed and you need to address it. Pay is always a touchy subject but not addressing it will cause unnecessary resentment and make for an uncomfortable working environment. \n\nYou need to be able to justify why everyone is paid (skills, knowledge, experience, market rate, revenue generation etc.) but you should also discuss career development and outline the criteria for pay rises/ promotions.",
+      "id": 48,
+      "comments": [],
+      "relation": "No"
+    }
+  ]
+}
