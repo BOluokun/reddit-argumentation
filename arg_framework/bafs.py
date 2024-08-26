@@ -66,12 +66,10 @@ class BAF:
         return a, self._graph.nodes[a]
 
     def get_supporters(self, a):
-        # supporters = [b for b, attrs in self._graph.pred[a].items() if attrs['edge_type'] == 'support']
         supporters = self.supporters[a]
         return supporters
 
     def get_attackers(self, a):
-        # attackers = [b for b, attrs in self._graph.pred[a].items() if attrs['edge_type'] == 'attack']
         attackers = self.attackers[a]
         return attackers
 
@@ -127,10 +125,10 @@ if __name__ == '__main__':
     supports = [(1, 0), (2, 1)]
     attacks = [(3, 0), (2, 3)]
     baf = BAF(e, args, attacks, supports)
-    # print(baf.get_arguments())
-    # print(baf.get_argument(0))
-    # print(f'Supporters of 0 are {baf.get_supporters(0)}')
-    # print(f'Attackers of 3 are {baf.get_attackers(3)}')
+    print(baf.get_arguments())
+    print(baf.get_argument(0))
+    print(f'Supporters of 0 are {baf.get_supporters(0)}')
+    print(f'Attackers of 3 are {baf.get_attackers(3)}')
     print(f'Pros are {baf.get_pros()}')
     print(f'Cons are {baf.get_cons()}')
     baf.display_graph()

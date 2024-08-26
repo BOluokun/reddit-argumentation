@@ -66,9 +66,7 @@ if __name__ == '__main__':
     subreddit = reddit.subreddit("AmItheAsshole")
     aita_data = {'title': [], 'verdict': [], 'thread file': [], 'total comments': []}
     n = 0
-    # posts = subreddit.top(limit=3 * NUM_POSTS, time_filter="month")
     num_per_verdict = NUM_POSTS // 4
-    # num_NTA, num_YTA = 0, 0
 
     for v in VERDICTS.keys():
         v_count = 0

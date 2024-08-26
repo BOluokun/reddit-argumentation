@@ -20,7 +20,6 @@ def basic_eval_range(score: float):
 
 
 def df_quad_strength_agg(vs: list[float]):
-    # print(f"vs = {vs}")
     n = len(vs)
     if n == 0:
         return 0.0
@@ -44,13 +43,10 @@ def df_quad_combine(v0, v_neg, v_pos):
 
 
 def df_quad_semantics(qbaf: QBAF, a: int):
-    # print(f"evaluating arg {a}")
     tau_a = qbaf.tau(a)
     attacker_evals = [df_quad_semantics(qbaf, b) for b in qbaf.get_attackers(a)]
     supporter_evals = [df_quad_semantics(qbaf, b) for b in qbaf.get_supporters(a)]
-    # print(f"attacker values = {attacker_evals}, supporters = {supporter_evals}")
     df_combine = df_quad_combine(tau_a, df_quad_strength_agg(attacker_evals), df_quad_strength_agg(supporter_evals))
-    # print(f"df_combine = {df_combine}")
     return df_combine
 
 
@@ -106,19 +102,15 @@ def reb_semantics(qbaf: QBAF, a: int):
         numerator = 1 - tau_a * 2
         try:
             denominator = 1 + tau_a * np.exp(E * np.log(2))
-            # denominator = float(1 + Decimal(tau_a) * 2 ** Decimal(E))
         except:
             print(f"Overflow error for E = {E}, tau_a = {tau_a}")
             return 0
     else:
         # Handle negative E
-        # print(f"E = {E}, tau_a = {tau_a}")
         E_ = abs(E)
         try:
             numerator = np.exp(E_ * np.log(2)) * (1 - tau_a ** 2)
-            # numerator = float(2 ** Decimal(E_) * (1 - Decimal(tau_a) ** 2))
             denominator = np.exp(E_ * np.log(2)) + tau_a
-            # denominator = float(2 ** Decimal(E_) + Decimal(tau_a))
         except:
             print(f"Overflow error for E = {E}, tau_a = {tau_a}")
             return 0
@@ -144,6 +136,3 @@ if __name__ == '__main__':
 
     for i in range(4):
         print(f"Score for arg {i} is: {ex_qbaf.evaluate_argument(i)}")
-
-    # ex_qbaf.display_graph()
-

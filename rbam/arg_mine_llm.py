@@ -5,19 +5,8 @@ import pandas as pd
 from tqdm import tqdm
 from datasets import Dataset
 
-# from llm_chat_manager import LlmChatManager
-# from hf_llm_managers import HuggingFaceLlmManager, HuggingFaceManualPromptLlmManager
 from new_llm_managers import HuggingFaceLlmManager
 from credentials import HF_API_TOKEN
-
-# llama_13b_manager = HuggingFaceManualPromptLlmManager("meta-llama/Llama-2-13b-hf", access_token=HF_API_TOKEN)
-# mistral_7b_manager = HuggingFaceManualPromptLlmManager("mistralai/Mistral-7B-v0.1", access_token=HF_API_TOKEN)
-# mistral_8x7b_manager = HuggingFaceManualPromptLlmManager("mistralai/Mixtral-8x7B-v0.1", access_token=HF_API_TOKEN)
-# chat_manager = LlmChatManager(llama_13b_manager)
-# chat_manager = LlmChatManager(mistral_7b_manager)
-# chat_manager = LlmChatManager(mistral_8x7b_manager)
-
-# print(torch.__version__)
 
 # Check if CUDA is available
 if torch.cuda.is_available():
@@ -25,7 +14,6 @@ if torch.cuda.is_available():
 else:
     print("CUDA is not available")
 
-# manager = HuggingFaceLlmManager("meta-llama/Llama-2-7b-hf", quantization="4bit")
 manager = HuggingFaceLlmManager("mistralai/Mistral-7B-Instruct-v0.2", quantization="4bit")
 
 with open('prompt_tests.txt', 'r') as f:
@@ -40,7 +28,7 @@ def argument_relation(parent_arg, child_arg, nr=False, support_label="Support", 
     Relation:"""
 
     constraints = {
-        "constraint_prefix": "", # "Relation:",
+        "constraint_prefix": "",
         "constraint_options": [support_label, attack_label] + ([no_label] if nr else []),
         "constraint_end_after_options": True,
     }
@@ -52,10 +40,6 @@ def argument_relation(parent_arg, child_arg, nr=False, support_label="Support", 
         apply_template=False,
         **constraints,
     )
-
-    # with open('test_response.txt', 'a') as f:
-    #     f.write(response)
-    #     f.write("\n\n")
 
     return response
 
@@ -99,23 +83,10 @@ def arg_mine_reddit():
         relations_dataset = Dataset.from_pandas(relations_df)
 
         relations_dataset = relations_dataset.map(lambda r: {'relation': argument_relation(r['parent'], r['child'], nr=True)})
-
-        # for row in relations_dataset:
-        #     parent_text = row['parent']
-        #     child_text = row['child']
-        #     relation = argument_relation(parent_text, child_text)
-        #     row['relation'] = relation
-
         relations_df = relations_dataset.to_pandas()
 
         for com in thread['comments']:
             set_relations_from(thread['id'], com, relations_df)
-
-        # post = thread["post content"]
-
-        # for com in thread['comments']:
-        #     # print("From a top-level comment")
-        #     build_relations_from(post, com)
 
         with open(directory + fn, 'w') as thread_file:
             json.dump(thread, thread_file, indent=2)
