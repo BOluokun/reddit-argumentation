@@ -91,12 +91,12 @@ def qem_semantics(qbaf: QBAF, a: int):
     return tau_a + (1 - tau_a) * qem_h(e_j) - tau_a * qem_h(-e_j)
 
 
-# REB (Ebs) Semantics
+# Ebs Semantics
 
-def reb_semantics(qbaf: QBAF, a: int):
+def ebs_semantics(qbaf: QBAF, a: int):
     tau_a = qbaf.tau(a)
-    attacker_evals = [reb_semantics(qbaf, b) for b in qbaf.get_attackers(a)]
-    supporter_evals = [reb_semantics(qbaf, b) for b in qbaf.get_supporters(a)]
+    attacker_evals = [ebs_semantics(qbaf, b) for b in qbaf.get_attackers(a)]
+    supporter_evals = [ebs_semantics(qbaf, b) for b in qbaf.get_supporters(a)]
     E = sum(supporter_evals) - sum(attacker_evals)
     if E >= 0:
         numerator = 1 - tau_a * 2
